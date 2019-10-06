@@ -80,6 +80,7 @@
     font-weight: 700;
     letter-spacing: 0.1em;
     color: #43a047;
+    text-transform: uppercase;
 }
 
 .slider-name {
@@ -224,7 +225,7 @@
     width: 56px;
     height: 56px;
     background-color: #ffffff;
-    border-radius: 24.0px;
+    border-radius: 50%;
 }
 
 .item_hover-name {
@@ -237,7 +238,7 @@
     height: 17px;
 }
 
-.item_hover-details{
+.item_hover-details {
     font-size: 14px;
     line-height: 21px;
     font-weight: 300;
@@ -245,5 +246,73 @@
     text-align: center;
     margin-top: 23px;
     height: 33px;
+    letter-spacing: -0.01em;
+}
 
+/*  promo-product */
+/* -------------------------------------------------------------------------------------- */
+
+.promo-product {
+    height: 683px;
+    display: flex;
+}
+
+.promo-content {
+    width: 683px;
+    padding-left: 46px;
+    padding-top: 228px;
+}
+
+.promo-content-item_1 {
+    background-image: url(images/promo_img1_148.jpg);
+}
+
+.promo-content-item_2 {
+    background-image: url(images/promo_img_132.jpg);
+}
+
+.promo-product-tag {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1e88e5;
+    height: 13px;
+    margin-bottom: 18px;
+    padding-left: 5px; 
+}
+
+.promo-product-name {
+    font-size: 36px;
+    font-weight: 700;
+    color: #212121;
+    height: 28px;
+    margin-bottom: 24px;
+    padding-left: 6px;
+}
+
+.promo-product-details {
+    font-size: 14.1px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    padding-left: 4px;
+    height: 36px;
+    width: 374px;
+    margin-bottom: 33px;
+    letter-spacing: -0.02em;
+}
+
+.promo-product-btn {
+    display: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    width: 220px;
+    height: 53px;
+    background-color: #ffffff;
+    border-radius: 22.5px;
 }
