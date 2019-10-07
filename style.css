@@ -1,45 +1,7 @@
-@import "reset.css";
+@import "styles/reset.css";
+@import "styles/common.css";
 @import "font/icomoon.css";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap');
-
-
-.order-btn {
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: #212121;
-    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
-    width: 220px;
-    height: 53px;
-    background-color: #ffffff;
-    border-radius: 22.5px;
-}
-
-.hidden-effect {
-    visibility: hidden;
-}
-
-
-.navigation-btn {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    opacity: 0.2;
-    background-color: #212121;
-    border-radius: 50%;
-    margin-left: 10px;
-}
-
-.navigation-btn_center {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.navigation-btn:active {
-    opacity: 1;
-}
 
 
 * {
@@ -199,7 +161,6 @@
 
 .featured-product-menu__list_current {
     color: #212121;
-    /* border-bottom: 2px solid #212121; */
 }
 
 .featured-product-menu__list:active {
@@ -207,7 +168,6 @@
 }
 
 .btn-ghost {
-
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -243,7 +203,6 @@
     padding-left: 31px;
     z-index: 1;
 }
-
 
 .item_hover-btn {
     margin-left: 74px;
@@ -360,7 +319,6 @@
 
 .trending-products__items {
     height: 770px;
-    ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -475,7 +433,6 @@
 
 .mobile-app-details {
     font-size: 22px;
-    /* line-height: 24px; */
     font-weight: 300;
     color: #6c6c6c;
     height: 21px;
