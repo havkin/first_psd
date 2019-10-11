@@ -1,3 +1,5 @@
+@import "../font/icomoon.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap');
 
 .order-btn {
     font-size: 18px;
@@ -12,24 +14,42 @@
     border-radius: 22.5px;
 }
 
+.order-btn:hover {
+    color:darkred;
+} 
+
 .hidden-effect {
     visibility: hidden;
 }
 
+.navigation {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .navigation-btn {
-    display: inline-block;
+    display: block;
     width: 30px;
     height: 30px;
     opacity: 0.2;
     background-color: #212121;
     border-radius: 50%;
     margin-left: 10px;
+    align-self: center;
 }
 
 .navigation-btn_center {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    
+}
+
+.navigation-btn:hover{
+    cursor: pointer;
 }
 
 .navigation-btn:active {
@@ -91,6 +111,10 @@
 .menu__button {
     border: none;
     background: none;
+}
+
+.menu__link:hover {
+    border-bottom: 1px solid #212121;
 }
 
 .menu__list:active {

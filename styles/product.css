@@ -1,0 +1,102 @@
+@import "reset.css";
+@import "common.css";
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* hero */
+/* ------------------------------------------------------------------------- */
+
+.hero {
+    background-color: #f5f5f5;
+    height: 360px;
+    padding-left: 98px;
+    padding-top: 261px;
+}
+
+.hero-title {
+    padding-left: 3px;
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    color: #212121;
+    letter-spacing: -0.05em;
+}
+
+/* products */
+/* ----------------------------------------------------------------------- */
+
+.products {
+    height: 1965px;
+    padding: 70px 98px 140px 98px;
+
+}
+
+.products-tab-controll {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+    margin-bottom: 50px;
+}
+
+.products-menu {
+    display: flex;
+    width: 647px;
+    height: 34px;
+    justify-content: space-between;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.products-menu__list_current {
+    color: #212121;
+}
+
+.products-menu__list:active {
+    border-bottom: 2px solid #212121;
+}
+
+.products-menu__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.products-menu__link:hover {
+    color: darkred;
+}
+
+.products__items {
+    height: 1570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.products-reload-btn {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 35.0px;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #212121;
+    border: none;
+    background-color: inherit;
+    margin: 50px auto 0px;
+    padding-top: 10px;
+}
+
+.products-reload-btn:hover {
+    background-color: #d8f4fe;
+}
+
+.products-reload-btn:active {
+    border: 3px solid deepskyblue;
+}

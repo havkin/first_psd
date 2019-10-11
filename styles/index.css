@@ -1,7 +1,5 @@
 @import "reset.css";
 @import "common.css";
-@import "../font/icomoon.css";
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap');
 
 
 * {
@@ -25,9 +23,12 @@
     padding-left: 98px;
     padding-top: 373px;
     padding-right: 98px;
+
 }
 
-
+.slider-content {
+    margin-bottom: 135px;
+}
 .slider-tag {
     height: 13px;
     font-size: 18px;
@@ -57,20 +58,14 @@
     line-height: 24px;
     font-weight: 300;
     color: #6c6c6c;
+    
 }
 
 .slider-content:hover > .hidden-effect {
     visibility: visible;
 }
 
-.navigation {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 135px;
-}
+
 
 /* featured-product */
 /* ------------------------------------------------------------------ */
@@ -95,16 +90,12 @@
     line-height: 1.2;
     font-weight: 700;
     color: #6c6c6c;
-
 }
 
 .featured-product-menu {
     display: flex;
     width: 269px;
     justify-content: space-between;
-}
-
-.featured-product-menu {
     border-bottom: 1px solid #6c6c6c;
 }
 
@@ -114,6 +105,15 @@
 
 .featured-product-menu__list:active {
     border-bottom: 2px solid #212121;
+}
+
+.featured-product-menu__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.featured-product-menu__link:hover {
+    color: darkred;
 }
 
 .btn-ghost {
@@ -294,13 +294,8 @@
     text-transform: uppercase;
 }
 
-.hot-deals-navigation {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 220px;
+.hot-deals-content {
+    margin-bottom: 220px;
 }
 
 .hot-deals-content:hover > .hidden-effect {
