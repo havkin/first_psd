@@ -127,6 +127,10 @@
     background: none;
 }
 
+.btn-ghost:hover {
+    color: darkred;
+}
+
 .featured-product__tab-content {
     display: flex;
     justify-content: space-between;
