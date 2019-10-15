@@ -61,7 +61,7 @@
     
 }
 
-.slider-content:hover > .hidden-effect {
+.slider-content:hover  .hidden-effect {
     visibility: visible;
 }
 
@@ -158,6 +158,9 @@
 }
 
 .item_hover-btn {
+    display: block;
+    text-align: center;
+    padding-top: 18px;
     margin-left: 74px;
     margin-top: 59px;
     box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
@@ -242,7 +245,7 @@
     letter-spacing: -0.02em;
 }
 
-.promo-content:hover > .hidden-effect {
+.promo-content:hover  .hidden-effect {
     visibility: visible;
 }
 
@@ -302,7 +305,7 @@
     margin-bottom: 220px;
 }
 
-.hot-deals-content:hover > .hidden-effect {
+.hot-deals-content:hover  .hidden-effect {
     visibility: visible;
 }
 
@@ -331,7 +334,7 @@
     padding-top: 186px;
 }
 
-.exclusive-product__item1:hover > .hidden-effect {
+.exclusive-product__item1:hover  .hidden-effect {
     visibility: visible;
 }
 
