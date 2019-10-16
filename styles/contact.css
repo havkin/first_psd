@@ -28,10 +28,11 @@
 /* ---------------------------------------------------------------------------- */
 
 .location {
-    height: 563px;
+    min-height: 563px;
     padding: 71px 98px 0px 98px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .location-item {

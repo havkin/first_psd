@@ -14,7 +14,7 @@
 /* ----------------------------------------------------------------------------------------- */
 
 .product-details__main {
-    height: 1157px;
+    min-height: 1157px;
     padding-top: 119px;
 }
 
@@ -47,9 +47,10 @@
 
 .product-details__slider {
     height: 100%;
-    padding: 98px 72px;
+    padding: 72px 98px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -147,6 +148,7 @@
 .related-products-header {
     display: flex;
     justify-content: space-between;
+   
     margin-bottom: 71px;
 }
 
@@ -170,4 +172,10 @@
 
 .btn-ghost:hover {
     color: darkred;
+}
+
+.related-products__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

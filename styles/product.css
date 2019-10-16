@@ -29,7 +29,7 @@
 /* ----------------------------------------------------------------------- */
 
 .products {
-    height: 1965px;
+    min-height: 1965px;
     padding: 70px 98px 140px 98px;
 
 }
@@ -70,7 +70,7 @@
 }
 
 .products__items {
-    height: 1570px;
+    min-height: 1570px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
